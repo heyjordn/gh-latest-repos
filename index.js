@@ -84,7 +84,7 @@ const fetchRepos = async (repos = [], cursor = null) => {
 	return repos.concat(currentRepos.slice(repos.length - MAX_REPOS));
 };
 
-module.exports = async (request, response) => {
+export default async function handler (request, response) {
 	controlAccess()(request, response);
 
 	try {

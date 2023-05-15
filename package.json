@@ -12,6 +12,7 @@
 		"graphql-got": "^0.1.2"
 	},
 	"devDependencies": {
+		"@vercel/node": "^2.14.2",
 		"ava": "^2.1.0",
 		"got": "^9.6.0",
 		"nock": "^10.0.6",
